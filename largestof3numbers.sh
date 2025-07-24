@@ -11,7 +11,7 @@ if [[ $num2 -gt $max ]]
        then
         echo "$num2 is the highest"
      else
-         echo "$num2 is the highest"
+         echo "$num3 is the highest"
     fi
 else
    if [[ $num1 -gt $num3 ]]
