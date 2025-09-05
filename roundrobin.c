@@ -53,7 +53,7 @@ void main(){
 		}
 		else{
 			curtime+=p[curindex].bt;
-				printf("|P%d (%d) %d",p[curindex].id,quantum,curtime);
+				printf("|P%d (%d) %d",p[curindex].p[curindex].bt,curtime);
 				p[curindex].bt=0;
 				p[curindex].ct=curtime;
 				p[curindex].tat=p[curindex].ct-p[curindex].at;
