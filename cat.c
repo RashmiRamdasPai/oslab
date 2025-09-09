@@ -14,8 +14,8 @@ void main(int argc,char *argv[]){
 		printf("\n Cannot open the file");
 		exit(1);
 	}
-	ch=fgetc(fp);
-	while(ch!=EOF)
+	
+	while((ch=fgetc(fp))!=EOF)
 	 printf("%c",ch);
 	fclose(fp);
 	printf("\n");
