@@ -20,7 +20,7 @@ int main(){
 	write(1,buffer,n);
 	printf("\n Skipping 5 characters from the current position");
 	lseek(fd,5,SEEK_CUR);
-	read(fd,buffer,10);
+	n=read(fd,buffer,10);
 	write(1,buffer,n);
 	printf("\n Going 10 characters before the current position");
 	lseek(fd,-10,SEEK_CUR);
